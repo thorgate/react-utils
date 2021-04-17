@@ -126,7 +126,6 @@ export function getUrlForLanguage(
 export function buildUrlCache(
     routeData: NamedRouteConfig[],
     separator = ':',
-    arrayPathName = 'fallback',
     namespace: string | null = null,
     routeNames: string[] = []
 ) {
@@ -139,7 +138,6 @@ export function buildUrlCache(
     baseBuildUrlCache(
         routeData,
         separator,
-        arrayPathName,
         namespace,
         routeNames,
         cleanPathName

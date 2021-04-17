@@ -1,5 +1,5 @@
 [![NPM version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
+[![Build Status][gh-actions-image]][gh-actions-url]
 # `tg-i18n-named-routes`
 
 A drop-in extension of [tg-named-routes](https://www.npmjs.com/package/tg-named-routes) to provide language specific 
@@ -90,5 +90,5 @@ MIT © [Thorgate](http://github.com/thorgate)
 [npm-url]: https://npmjs.org/package/tg-i18n-named-routes
 [npm-image]: https://img.shields.io/npm/v/tg-i18n-named-routes.svg?style=flat-square
 
-[travis-url]: https://travis-ci.com/thorgate/tg-spa-utils
-[travis-image]: https://travis-ci.com/thorgate/tg-spa-utils.svg?branch=master
+[gh-actions-url]: https://github.com/thorgate/tg-react-utils/actions/workflows/main.yml
+[gh-actions-image]: https://github.com/thorgate/tg-react-utils/actions/workflows/main.yml/badge.svg?branch=master

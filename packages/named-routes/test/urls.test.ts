@@ -92,7 +92,7 @@ describe('Named paths', () => {
     });
 
     test('Correct route names generated', () => {
-        expect(getUrlNames()).toEqual(['root', 'root:home', 'root:params', "root:params-multi", "root:params-multi:fallback-1", 'test']);
+        expect(getUrlNames()).toEqual(['root', 'root:home', 'root:params', "root:params-multi", "root:params-multi:1", 'test']);
     });
 
     test('Location serialize works', () => {

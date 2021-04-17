@@ -15,13 +15,13 @@
     "Jörgen Ader <jorgen.ader@gmail.com> (https://github.com/metsavaht)",
     "Jürno Ader <jyrno42@gmail.com> (https://github.com/jyrno42)"
   ],
-  "homepage": "https://github.com/thorgate/tg-spa-utils/tree/master/packages/i18n-named-routes#readme",
+  "homepage": "https://github.com/thorgate/tg-react-utils/tree/master/packages/i18n-named-routes#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thorgate/tg-spa-utils.git"
+    "url": "git+https://github.com/thorgate/tg-react-utils.git"
   },
   "bugs": {
-    "url": "https://github.com/thorgate/tg-spa-utils/issues"
+    "url": "https://github.com/thorgate/tg-react-utils/issues"
   },
   "keywords": [
     "react-router",

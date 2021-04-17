@@ -85,7 +85,6 @@ export function cleanPathName(
  *
  * @param routeData List of routes to generate
  * @param [separator=':'] Separator for parent route name and child route name
- * @param [arrayPathName='fallback'] Separator for parent route name and child route name
  * @param [namespace=null] Parent route namespace
  * @param [routeNames=[]] For internal use only, used to keep track of generated URLs
  * @param [cleanMethod] For internal use only. Can be used to provide a custom method to
@@ -94,7 +93,6 @@ export function cleanPathName(
 export function buildUrlCache(
     routeData: NamedRouteConfig[],
     separator = ':',
-    arrayPathName = 'fallback',
     namespace: string | null = null,
     routeNames: string[] = [],
     cleanMethod?: (
@@ -127,9 +125,7 @@ export function buildUrlCache(
             if (Array.isArray(route.path)) {
                 route.path.forEach((p, idx) => {
                     const currentName =
-                        idx === 0
-                            ? name
-                            : `${name}${separator}${arrayPathName}-${idx}`;
+                        idx === 0 ? name : `${name}${separator}${idx}`;
                     urlMapCache[currentName] = {
                         pattern: p,
                         resolve: pathToRegexp.compile(p),
@@ -147,7 +143,6 @@ export function buildUrlCache(
             buildUrlCache(
                 route.routes,
                 separator,
-                arrayPathName,
                 route.routeName,
                 routeNames,
                 cleanMethod

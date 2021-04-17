@@ -28,7 +28,7 @@ jobs:
       - name: Run tests
         env:
             NODE_OPTIONS: --max_old_space_size=4096
-        run: yarn testAll
+        run: yarn test:coverage
       - name: Coveralls
         uses: coverallsapp/github-action@master
         if: matrix.node == '12'

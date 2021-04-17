@@ -1,1 +1,1 @@
-See [the github releases](https://github.com/thorgate/tg-spa-utils/releases)
+See [the github releases](https://github.com/thorgate/tg-react-utils/releases)

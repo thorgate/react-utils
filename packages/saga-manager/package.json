@@ -14,12 +14,12 @@
   "contributors": [
     "Jörgen Ader <jorgen.ader@gmail.com> (https://github.com/metsavaht)"
   ],
-  "homepage": "https://github.com/thorgate/tg-spa-utils/tree/master/packages/saga-manager#readme",
+  "homepage": "https://github.com/thorgate/tg-react-utils/tree/master/packages/saga-manager#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thorgate/tg-spa-utils.git"
+    "url": "git+https://github.com/thorgate/tg-react-utils.git"
   },
-  "bugs": "https://github.com/thorgate/tg-spa-utils/issues",
+  "bugs": "https://github.com/thorgate/tg-react-utils/issues",
   "keywords": [
     "redux-saga",
     "hot-reload"

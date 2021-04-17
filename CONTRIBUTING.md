@@ -9,7 +9,7 @@ You can contribute in many ways:
 
 ### Report Bugs
 
-Report bugs at <https://github.com/thorgate/tg-spa-utils/issues>.
+Report bugs at <https://github.com/thorgate/tg-react-utils/issues>.
 
 If you are reporting a bug, please include:
 
@@ -30,13 +30,13 @@ Look through the GitHub issues for features. Anything tagged with
 
 ### Write Documentation
 
-`tg-spa-utils` packages could always use more documentation, whether as part of
-`tg-spa-utils`, or even on the web in blog posts, articles and such.
+`tg-react-utils` packages could always use more documentation, whether as part of
+`tg-react-utils`, or even on the web in blog posts, articles and such.
 
 ### Submit Feedback
 
 The best way to send feedback is to file an issue at
-<https://github.com/thorgate/tg-spa-utils/issues>.
+<https://github.com/thorgate/tg-react-utils/issues>.
 
 If you are proposing a feature:
 
@@ -54,13 +54,13 @@ Changelog is maintained via github releases.
 
 ## Get Started!
 
-Ready to contribute? Here's how to set up tg-spa-utils for local
+Ready to contribute? Here's how to set up tg-react-utils for local
 development.
 
-1.  Fork the tg-spa-utils repo on GitHub.
+1.  Fork the tg-react-utils repo on GitHub.
 2.  Clone your fork locally:
 
-        $ git clone git@github.com:your_name_here/tg-spa-utils.git
+        $ git clone git@github.com:your_name_here/tg-react-utils.git
 
 3.  Install dependencies
 

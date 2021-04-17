@@ -1,0 +1,19 @@
+{
+  "lerna": "3.4.3",
+  "packages": [
+    "examples/*",
+    "packages/*"
+  ],
+  "command": {
+    "publish": {
+      "message": "chore(release): publish %s",
+      "ignoreChanges": [
+        "*.md"
+      ]
+    }
+  },
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "1.0.0-beta.3",
+  "exact": true
+}

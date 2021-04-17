@@ -1,0 +1,53 @@
+{
+  "name": "tg-named-routes",
+  "version": "1.0.0-beta.2",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "React Router named routes helper",
+  "main": "dist/index.js",
+  "module": "dist/tg-named-routes.esm.js",
+  "typings": "dist/index.d.ts",
+  "license": "MIT",
+  "author": "Thorgate <hi@thorgate.eu>",
+  "contributors": [
+    "Jörgen Ader <jorgen.ader@gmail.com> (https://github.com/metsavaht)"
+  ],
+  "homepage": "https://github.com/thorgate/tg-spa-utils/tree/master/packages/named-routes#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thorgate/tg-spa-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thorgate/tg-spa-utils/issues"
+  },
+  "keywords": [
+    "react-router",
+    "named-routes"
+  ],
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "history": "^4.9.0",
+    "react": "^16.8.4 || ^17.0.0",
+    "react-router": "^4.3.0 || ^5.0.0",
+    "react-router-config": "^4.3.0 || ^5.0.0",
+    "react-router-dom": "^4.3.0 || ^5.0.0"
+  },
+  "dependencies": {
+    "path-to-regexp": "^3.0.0",
+    "qs": "^6.5.2",
+    "warning": "^4.0.2"
+  },
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "lint": "eslint src -c ../../.eslintrc.js --ext ts --ext tsx",
+    "build": "tsdx build",
+    "prebuild": "yarn clean && yarn lint"
+  }
+}

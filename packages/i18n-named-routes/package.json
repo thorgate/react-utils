@@ -1,0 +1,53 @@
+{
+  "name": "tg-i18n-named-routes",
+  "version": "1.0.0-beta.3",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "React Router named routes i18n extension",
+  "main": "dist/index.js",
+  "module": "dist/tg-i18n-named-routes.esm.js",
+  "typings": "dist/index.d.ts",
+  "license": "MIT",
+  "author": "Thorgate <hi@thorgate.eu>",
+  "contributors": [
+    "Jörgen Ader <jorgen.ader@gmail.com> (https://github.com/metsavaht)",
+    "Jürno Ader <jyrno42@gmail.com> (https://github.com/jyrno42)"
+  ],
+  "homepage": "https://github.com/thorgate/tg-spa-utils/tree/master/packages/i18n-named-routes#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thorgate/tg-spa-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thorgate/tg-spa-utils/issues"
+  },
+  "keywords": [
+    "react-router",
+    "named-routes",
+    "i18n",
+    "i18n-named-routes"
+  ],
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "tg-named-routes": "1.0.0-beta.2"
+  },
+  "peerDependencies": {
+    "history": "^4.6.0",
+    "react": "^16.10.0 || ^17.0.0",
+    "react-i18next": "^10.0.0 || ^11.0.0",
+    "react-router": "^4.0.0 || 5.0.0"
+  },
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "lint": "eslint src -c ../../.eslintrc.js --ext ts --ext tsx",
+    "build": "tsdx build",
+    "prebuild": "yarn clean && yarn lint"
+  }
+}
